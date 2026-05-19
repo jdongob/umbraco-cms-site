@@ -1,0 +1,17 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+
+
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.Page>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="hero">
+
+    <h1 class="hero-title">@Model.Title</h1>
+
+    <p class="hero-subtitle">@Model.Subtitle</p>
+
+</div>

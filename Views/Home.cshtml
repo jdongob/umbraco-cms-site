@@ -1,0 +1,40 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+
+<!--<h1>@@Model.Title</h1>-->
+
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.Home>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+
+@{
+    Layout = "_Layout";
+}
+
+
+@using Umbraco.Cms.Core.Models.PublishedContent
+
+@{
+    var heroImage = Model.Value<IPublishedContent>("heroImage");
+}
+
+
+<div class="hero">
+
+    @if (heroImage != null)
+    {
+        <img class="hero-image" src="@heroImage.Url()" alt="Hero Image" />
+    }
+
+    <h1 class="hero-title">@Model.Value("title")</h1>
+
+    <p class="hero-subtitle">
+        @Model.Value("subtitle")
+    </p>
+
+    <div class="badge">
+        Umbraco CMS + Razor + C#
+    </div>
+
+
+</div>
+
+

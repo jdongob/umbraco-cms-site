@@ -1,0 +1,103 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f8;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 100px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+.badge {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 12px;
+    background: #007acc;
+    color: white;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.header {
+    background: #007acc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    margin: 0;
+    font-size: 20px;
+}
+
+/* NAV centrado */
+.nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* links */
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+    /* hover */
+    .nav-link:hover {
+        background: rgba(255,255,255,0.2);
+    }
+
+    /* ACTIVE PAGE */
+    .nav-link.active {
+        background: white;
+        color: #007acc;
+    }
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 20px;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
