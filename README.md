@@ -18,12 +18,12 @@ A simple CMS-driven website built with **ASP.NET Core** and **Umbraco CMS**.
 ## Screenshots
 
 ### Front-end
-![Home Frontend](Screenshots/home-frontend.png)
+<img src="Screenshots/home-frontend.png" width="700">
 
 ### Umbraco Backoffice
-![Document Types](Screenshots/document-types.png)
-![Content Tree](Screenshots/content-tree.png)
-![Media Library](Screenshots/media-library.png)
+<img src="Screenshots/document-types.png" width="700">
+<img src="Screenshots/content-tree.png" width="700">
+<img src="Screenshots/media-library.png" width="700">
 
 
 ## How to run locally
